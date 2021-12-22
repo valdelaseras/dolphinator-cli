@@ -1,0 +1,32 @@
+{
+  "name": "dolphinator-cli",
+  "version": "1.0.0",
+  "description": "dolphinator cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "bin": {
+    "dolphin8": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdelaseras/dolphinator-cli.git"
+  },
+  "keywords": [
+    "dolphinator",
+    "cli"
+  ],
+  "author": "robin@weird.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdelaseras/dolphinator-cli/issues"
+  },
+  "homepage": "https://github.com/valdelaseras/dolphinator-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "conf": "^10.1.1"
+  }
+}

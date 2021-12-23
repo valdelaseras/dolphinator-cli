@@ -16,7 +16,7 @@ program
         } else if ( program.opts().decode ) {
             console.log( Chalk.cyan.bold( decode( input )));
         } else if ( program.opts().dolphin ) {
-            console.log( Chalk.bold(`              
+            console.log( Chalk.bold(`
                                   __         
                                _.-~  )
                     _..--~~~~,'   ,-/     _
@@ -45,7 +45,7 @@ ${Chalk.bgBlueBright(' °˖✧ The Dolphinator ✧˖° ')}${Chalk.bgMagentaBrigh
 `)
     .addHelpText('after', `
 ${Chalk('Example usage:')}
-${Chalk.blue.bold('dolphin8 -e "encode this string"')}
-${Chalk.blue.bold('dolphin8 --decode "EEEEEEEEEeeEeEEEEEEEEEEEEeeEeEEe"')}`)
+${Chalk.cyan.bold('dolphin8 -e "encode this string"')}
+${Chalk.cyan.bold('dolphin8 --decode "EEEEEEEEEeeEeEEEEEEEEEEEEeeEeEEe"')}`)
 
 program.parse();
